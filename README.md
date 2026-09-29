@@ -4,7 +4,7 @@ Aplikacja frontendowa w **Next.js (App Router)** z wieloetapowym formularzem dod
 
 ## 🔗 Linki
 
-- **Live Demo:** [https://vercel.app](https:/vercel.app)
+- **Live Demo:** [https://product-management-dashboard-kohl.vercel.app](https://product-management-dashboard-kohl.vercel.app)
 - **Repozytorium:** [https://github.com/KonradCiepluch/product-management-dashboard](https://github.com/KonradCiepluch/product-management-dashboard)
 
 ## 🛠️ Stack Technologiczny
