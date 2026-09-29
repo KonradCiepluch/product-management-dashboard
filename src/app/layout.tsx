@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import Head from "next/head";
 import { Geist, Geist_Mono } from "next/font/google";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
+import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -23,7 +26,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <Head>
+        <title>Product Management Dashboard</title>
+      </Head>
+      <body className="font-sans bg-neutral-50">
+        <NuqsAdapter>
+          {children}
+          <Toaster />
+        </NuqsAdapter>
+      </body>
     </html>
   );
 }
