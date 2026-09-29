@@ -26,7 +26,7 @@ Aplikacja frontendowa w **Next.js (App Router)** z wieloetapowym formularzem dod
 ```bash
 # 1. Sklonuj repozytorium i wejdź do katalogu
 git clone [https://github.com/KonradCiepluch/product-management-dashboard](https://github.com/KonradCiepluch/product-management-dashboard)
-cd twoje-repo
+cd product-management-dashboard
 
 # 2. Zainstaluj zależności
 npm install
